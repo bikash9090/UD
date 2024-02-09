@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test thread-count="5" name="TestFOLDER1">  <!-- these are test folder having custome name-->
+		<classes>
+			<class name="TESTNG.loan2">
+
+				<methods>
+					<include name="methods"></include>
+				</methods>
+			</class>
+			<class name="TESTNG.loan1" />
+		</classes>
+	</test>
+
+
+	<test thread-count="5" name="TestFOLDER2">  <!-- these are test folder having custome name-->
+		<classes>
+			<class name="TESTNG.loan3">
+				<methods>
+					<exclude name="login.*"></exclude>   <!-- ecclude all methoda with name "login" -->
+				</methods>
+			</class>
+
+			<class name="TESTNG.loan4">
+
+				<methods>
+
+					<exclude name="loginmobile"></exclude> <!-- ecluding the method/testcase "loginmobile from class loan4 -->
+
+				</methods>
+
+
+			</class>
+
+		</classes>
+	</test>
+
+
+
+</suite> 
+	

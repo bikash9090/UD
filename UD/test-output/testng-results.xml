@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-27T14:15:07 IST" name="Default suite" finished-at="2023-11-27T14:15:07 IST" duration-ms="196">
+    <groups>
+    </groups>
+    <test started-at="2023-11-27T14:15:07 IST" name="Default test" finished-at="2023-11-27T14:15:07 IST" duration-ms="196">
+      <class name="TESTNG.loan3">
+        <test-method signature="loginmobile()[pri:0, instance:TESTNG.loan3@1573f9fc]" started-at="2023-11-27T14:15:07 IST" name="loginmobile" finished-at="2023-11-27T14:15:07 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmobile -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:TESTNG.loan3@1573f9fc]" started-at="2023-11-27T14:15:07 IST" name="aftertest" finished-at="2023-11-27T14:15:07 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- TESTNG.loan3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
