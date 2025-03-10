@@ -9,6 +9,7 @@
 
 				<methods>
 					<include name="methods"></include>
+					<include name=""></include>
 				</methods>
 			</class>
 			<class name="TESTNG.loan1" />
